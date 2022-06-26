@@ -8,6 +8,7 @@ run:
 ```
 git clone git@github.com:andreafilipovic/zeus_manager_inovices.git
 composer install
+cp .env.example .env
 php artisan key:generate
 
 run php invoices.php
